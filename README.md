@@ -35,7 +35,7 @@ UWB(Ultra-Wideband) 기반 V2X 측위와 규칙 기반(rule-based) 주행 로직
 ## Requirements
 
 - Ubuntu 20.04
-- CARLA 0.9.16
+- CARLA 0.9.16 — `sensor.other.uwb` 커스텀 센서가 포함된 [dh0508/carla_with_UWB](https://github.com/dh0508/carla_with_UWB) 포크가 필요합니다. 공식 CARLA 배포판에는 이 센서가 없어 이 레포의 UWB 위치 추정 코드가 동작하지 않습니다.
 - Python 3.8+
 
 ```bash
