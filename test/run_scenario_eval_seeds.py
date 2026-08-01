@@ -146,7 +146,7 @@ def run_one(seed: int, args: argparse.Namespace) -> int:
         timeout=args.setup_timeout,
     )
     # run_setup.py는 받은 인자를 sensor_attach.py + run_agents.py(→ infrastructure/vehicle/
-    # pedestrain)에 그대로 전달하는데, vehicle.py/pedestrain.py는 --host/--port만 받고
+    # pedestrian)에 그대로 전달하는데, vehicle.py/pedestrian.py는 --host/--port만 받고
     # --uwb-range는 모른다. 여기서 넘기면 두 에이전트가 argparse 에러로 죽고 그 여파로
     # run_agents.py → run_setup.py 전체가 조기 종료된다. 그래서 --host/--port만 넘긴다
     # (sensor_attach.py/infrastructure.py의 --uwb-range 기본값 150.0을 그대로 쓴다).

@@ -6,10 +6,10 @@ rule_based_test.py와 동일하게 Carla 서버에 접속해 hero를 주행시�
 실패(충돌·위험 근접·신호 위반)했는지를 세어 다음과 같은 표를 만든다.
 
     이벤트            발생 횟수  정상 처리  실패  성공률
-    정지 차량 대응        216       207     9   95.8%
-    적색신호 접근         143       140     3   97.9%
-    보행자 횡단           51        47     4   92.2%
-    전체 정지 필요 이벤트  410       394    16   96.1%
+    정지 차량 대응
+    적색신호 접근
+    보행자 횡단
+    전체 정지 필요 이벤트
 
 판정은 주행 로직이 보는 UWB 인지값이 아니라 **CARLA world 액터의 실제 상태**로 한다
 (실주행 안전 결과를 정직하게 재기 위함):
@@ -22,7 +22,7 @@ rule_based_test.py와 동일하게 Carla 서버에 접속해 hero를 주행시�
   1. Carla 서버 실행
   2. sim_setup/scenarios/generate_traffic.py -n 30 -w 8 -s <seed>  (NPC 차량 30 · 보행자 8)
   3. sim_setup/sensor_setting/sensor_attach.py
-  4. sim_setup/sensor_setting/agent/infrastructure.py  (+ 원하면 agent/vehicle.py, agent/pedestrain.py)
+  4. sim_setup/sensor_setting/agent/infrastructure.py  (+ 원하면 agent/vehicle.py, agent/pedestrian.py)
   5. python test/scenario_eval.py --seed <seed> --duration 600 --results-json test/eval_results.json
 
 시드마다 (2)~(5)를 반복하면 각 세션 결과가 --results-json에 누적되고, 매 실행 끝에

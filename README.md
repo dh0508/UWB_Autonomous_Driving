@@ -1,9 +1,11 @@
-# UME-Drive-Net
+# UWB Autonomous Driving
 
 UWB(Ultra-Wideband) 기반 V2X 측위와 규칙 기반(rule-based) 주행 로직을 CARLA 시뮬레이터 위에 구현한 프로젝트입니다.
 카메라/라이다 인지 대신, 차량·보행자·인프라(도로변 앵커, 신호등)에 부착된 UWB 센서 간 거리 측정을 삼변측량(trilateration)하고 IMU/오도메트리와 칼만 필터로 융합해 각 객체의 위치를 추정한 뒤, 이 추정 위치만으로 주행 판단을 수행합니다.
 
-> 📄 관련 논문 및 그림은 추후 추가 예정입니다.
+<p align="center">
+  <img src="docs/figures/architecture.png" alt="System architecture" width="900">
+</p>
 
 ---
 
@@ -46,6 +48,8 @@ pip install -r requirements.txt
 
 ```
 .
+├── docs/
+│   └── figures/          # README 등에 쓰이는 이미지 (예: architecture.png)
 ├── data/
 │   ├── map/            # CARLA HD-map 원본(.xodr) 및 학습용 레이어(.json)
 │   └── src/             # 맵 로더, 속도 PI 제어기, 좌표 변환 유틸
@@ -101,9 +105,3 @@ python test/run_scenario_eval_seeds.py --runs 30 --duration 600
 | 적색신호 접근 | 적색/황색 신호에 대한 정지 |
 | 보행자 횡단 | 횡단 보행자에 대한 정지/안전 통과 |
 
----
-
-## Roadmap
-
-- [ ] 논문 링크 추가
-- [ ] 결과 그림 / 다이어그램 추가

@@ -63,7 +63,7 @@ ROUTE_LOOKAHEAD_POINTS = 20
 # 코리도 '폭' 판정 기하도 실주행 안전을 위해 loss보다 강화했다: 앞차는 ego 정면 직선축이
 # 아니라 route 폴리라인 기준 측방거리 + 앞차 실제 폭(width/2)으로 감지한다(_corridor_ahead 참고).
 STOP_VEHICLE_DIST_M = 6.0
-# 보행자는 UWB 페이로드에 속도가 없어(agent/pedestrain.py 참고) 차량과 달리 진행방향 예측이
+# 보행자는 UWB 페이로드에 속도가 없어(agent/pedestrian.py 참고) 차량과 달리 진행방향 예측이
 # 불가능하다 — 지금 코리도 안에 있어야만 감지되므로, 코리도 폭과 정지 여유를 더 넉넉히 잡아
 # "코리도 밖에서 갑자기 들어오는" 보행자에도 반응할 시간을 번다.
 STOP_PED_DIST_M = 8.0

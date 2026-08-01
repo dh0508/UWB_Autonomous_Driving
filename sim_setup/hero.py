@@ -10,7 +10,7 @@
 #   2. sensor_attach.py
 #   3. agent/infrastructure.py
 #   4. agent/vehicle.py
-#   5. agent/pedestrain.py
+#   5. agent/pedestrian.py
 #   6. manual_control.py          ← hero 차량 생성
 #   7. hero.py  (이 스크립트)     ← hero 에 센서 부착 + 대시보드
 

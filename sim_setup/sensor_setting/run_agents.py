@@ -12,7 +12,7 @@ HERE   = os.path.dirname(os.path.abspath(__file__))
 AGENTS = [
     os.path.join(HERE, 'agent', 'infrastructure.py'),
     os.path.join(HERE, 'agent', 'vehicle.py'),
-    os.path.join(HERE, 'agent', 'pedestrain.py'),
+    os.path.join(HERE, 'agent', 'pedestrian.py'),
 ]
 
 # infrastructure → vehicle → pedestrian 순서로 기동
