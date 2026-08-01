@@ -1,0 +1,784 @@
+{
+  "runs": [
+    {
+      "meta": {
+        "seed": 344346098,
+        "drive_min": 10.0,
+        "distance_km": 2.164,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 15,
+          "success": 14,
+          "fail": 1
+        },
+        "red_light": {
+          "total": 8,
+          "success": 5,
+          "fail": 3
+        },
+        "pedestrian": {
+          "total": 1,
+          "success": 1,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 1165203957,
+        "drive_min": 10.0,
+        "distance_km": 1.664,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 12,
+          "success": 10,
+          "fail": 2
+        },
+        "red_light": {
+          "total": 8,
+          "success": 8,
+          "fail": 0
+        },
+        "pedestrian": {
+          "total": 0,
+          "success": 0,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 966967461,
+        "drive_min": 10.0,
+        "distance_km": 2.112,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 4,
+          "success": 3,
+          "fail": 1
+        },
+        "red_light": {
+          "total": 10,
+          "success": 10,
+          "fail": 0
+        },
+        "pedestrian": {
+          "total": 0,
+          "success": 0,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 839916634,
+        "drive_min": 10.0,
+        "distance_km": 1.619,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 15,
+          "success": 14,
+          "fail": 1
+        },
+        "red_light": {
+          "total": 8,
+          "success": 6,
+          "fail": 2
+        },
+        "pedestrian": {
+          "total": 2,
+          "success": 1,
+          "fail": 1
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 298655813,
+        "drive_min": 10.0,
+        "distance_km": 1.818,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 12,
+          "success": 11,
+          "fail": 1
+        },
+        "red_light": {
+          "total": 11,
+          "success": 10,
+          "fail": 1
+        },
+        "pedestrian": {
+          "total": 0,
+          "success": 0,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 1362487774,
+        "drive_min": 10.0,
+        "distance_km": 1.916,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 6,
+          "success": 6,
+          "fail": 0
+        },
+        "red_light": {
+          "total": 8,
+          "success": 8,
+          "fail": 0
+        },
+        "pedestrian": {
+          "total": 0,
+          "success": 0,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 1011064535,
+        "drive_min": 10.0,
+        "distance_km": 1.689,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 12,
+          "success": 11,
+          "fail": 1
+        },
+        "red_light": {
+          "total": 6,
+          "success": 6,
+          "fail": 0
+        },
+        "pedestrian": {
+          "total": 0,
+          "success": 0,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 1448180095,
+        "drive_min": 10.0,
+        "distance_km": 2.057,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 4,
+          "success": 4,
+          "fail": 0
+        },
+        "red_light": {
+          "total": 10,
+          "success": 7,
+          "fail": 3
+        },
+        "pedestrian": {
+          "total": 2,
+          "success": 2,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 660843551,
+        "drive_min": 10.0,
+        "distance_km": 1.876,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 2,
+          "success": 2,
+          "fail": 0
+        },
+        "red_light": {
+          "total": 10,
+          "success": 8,
+          "fail": 2
+        },
+        "pedestrian": {
+          "total": 1,
+          "success": 1,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 1509707785,
+        "drive_min": 10.0,
+        "distance_km": 1.759,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 13,
+          "success": 13,
+          "fail": 0
+        },
+        "red_light": {
+          "total": 7,
+          "success": 7,
+          "fail": 0
+        },
+        "pedestrian": {
+          "total": 1,
+          "success": 1,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 704359012,
+        "drive_min": 10.0,
+        "distance_km": 1.811,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 8,
+          "success": 5,
+          "fail": 3
+        },
+        "red_light": {
+          "total": 9,
+          "success": 8,
+          "fail": 1
+        },
+        "pedestrian": {
+          "total": 0,
+          "success": 0,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 1553164451,
+        "drive_min": 10.0,
+        "distance_km": 2.032,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 12,
+          "success": 12,
+          "fail": 0
+        },
+        "red_light": {
+          "total": 4,
+          "success": 4,
+          "fail": 0
+        },
+        "pedestrian": {
+          "total": 0,
+          "success": 0,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 1250772281,
+        "drive_min": 10.0,
+        "distance_km": 1.579,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 14,
+          "success": 13,
+          "fail": 1
+        },
+        "red_light": {
+          "total": 12,
+          "success": 9,
+          "fail": 3
+        },
+        "pedestrian": {
+          "total": 1,
+          "success": 1,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 2100961427,
+        "drive_min": 10.0,
+        "distance_km": 1.694,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 10,
+          "success": 9,
+          "fail": 1
+        },
+        "red_light": {
+          "total": 10,
+          "success": 7,
+          "fail": 3
+        },
+        "pedestrian": {
+          "total": 0,
+          "success": 0,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 779597393,
+        "drive_min": 10.0,
+        "distance_km": 1.3,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 14,
+          "success": 12,
+          "fail": 2
+        },
+        "red_light": {
+          "total": 7,
+          "success": 6,
+          "fail": 1
+        },
+        "pedestrian": {
+          "total": 0,
+          "success": 0,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 946557982,
+        "drive_min": 10.0,
+        "distance_km": 1.736,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 17,
+          "success": 14,
+          "fail": 3
+        },
+        "red_light": {
+          "total": 9,
+          "success": 6,
+          "fail": 3
+        },
+        "pedestrian": {
+          "total": 1,
+          "success": 1,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 1504637356,
+        "drive_min": 10.0,
+        "distance_km": 1.573,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 12,
+          "success": 12,
+          "fail": 0
+        },
+        "red_light": {
+          "total": 9,
+          "success": 8,
+          "fail": 1
+        },
+        "pedestrian": {
+          "total": 3,
+          "success": 3,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 2142691639,
+        "drive_min": 10.0,
+        "distance_km": 1.847,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 9,
+          "success": 8,
+          "fail": 1
+        },
+        "red_light": {
+          "total": 9,
+          "success": 8,
+          "fail": 1
+        },
+        "pedestrian": {
+          "total": 1,
+          "success": 1,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 1251598528,
+        "drive_min": 10.0,
+        "distance_km": 2.121,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 7,
+          "success": 7,
+          "fail": 0
+        },
+        "red_light": {
+          "total": 3,
+          "success": 2,
+          "fail": 1
+        },
+        "pedestrian": {
+          "total": 0,
+          "success": 0,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 399451264,
+        "drive_min": 10.0,
+        "distance_km": 1.744,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 7,
+          "success": 6,
+          "fail": 1
+        },
+        "red_light": {
+          "total": 10,
+          "success": 8,
+          "fail": 2
+        },
+        "pedestrian": {
+          "total": 0,
+          "success": 0,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 1703019688,
+        "drive_min": 10.0,
+        "distance_km": 1.849,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 9,
+          "success": 6,
+          "fail": 3
+        },
+        "red_light": {
+          "total": 6,
+          "success": 5,
+          "fail": 1
+        },
+        "pedestrian": {
+          "total": 0,
+          "success": 0,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 248027513,
+        "drive_min": 10.0,
+        "distance_km": 1.519,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 15,
+          "success": 15,
+          "fail": 0
+        },
+        "red_light": {
+          "total": 7,
+          "success": 6,
+          "fail": 1
+        },
+        "pedestrian": {
+          "total": 1,
+          "success": 1,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 1809393412,
+        "drive_min": 10.0,
+        "distance_km": 2.072,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 9,
+          "success": 9,
+          "fail": 0
+        },
+        "red_light": {
+          "total": 9,
+          "success": 8,
+          "fail": 1
+        },
+        "pedestrian": {
+          "total": 3,
+          "success": 3,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 204886150,
+        "drive_min": 10.0,
+        "distance_km": 1.737,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 13,
+          "success": 12,
+          "fail": 1
+        },
+        "red_light": {
+          "total": 7,
+          "success": 7,
+          "fail": 0
+        },
+        "pedestrian": {
+          "total": 1,
+          "success": 1,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 1250728751,
+        "drive_min": 10.0,
+        "distance_km": 1.786,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 8,
+          "success": 8,
+          "fail": 0
+        },
+        "red_light": {
+          "total": 8,
+          "success": 6,
+          "fail": 2
+        },
+        "pedestrian": {
+          "total": 0,
+          "success": 0,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 210281415,
+        "drive_min": 10.0,
+        "distance_km": 2.322,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 12,
+          "success": 12,
+          "fail": 0
+        },
+        "red_light": {
+          "total": 9,
+          "success": 7,
+          "fail": 2
+        },
+        "pedestrian": {
+          "total": 1,
+          "success": 0,
+          "fail": 1
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 1535665841,
+        "drive_min": 10.0,
+        "distance_km": 1.671,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 18,
+          "success": 16,
+          "fail": 2
+        },
+        "red_light": {
+          "total": 7,
+          "success": 7,
+          "fail": 0
+        },
+        "pedestrian": {
+          "total": 0,
+          "success": 0,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 1237128563,
+        "drive_min": 10.0,
+        "distance_km": 1.598,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 14,
+          "success": 14,
+          "fail": 0
+        },
+        "red_light": {
+          "total": 8,
+          "success": 8,
+          "fail": 0
+        },
+        "pedestrian": {
+          "total": 0,
+          "success": 0,
+          "fail": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 888611944,
+        "drive_min": 10.0,
+        "distance_km": 2.075,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 9,
+          "success": 7,
+          "fail": 2
+        },
+        "red_light": {
+          "total": 7,
+          "success": 6,
+          "fail": 1
+        },
+        "pedestrian": {
+          "total": 2,
+          "success": 1,
+          "fail": 1
+        }
+      }
+    },
+    {
+      "meta": {
+        "seed": 1613297197,
+        "drive_min": 10.0,
+        "distance_km": 1.87,
+        "npc_vehicles": 29,
+        "pedestrians": 8
+      },
+      "counts": {
+        "stopped_vehicle": {
+          "total": 18,
+          "success": 17,
+          "fail": 1
+        },
+        "red_light": {
+          "total": 7,
+          "success": 6,
+          "fail": 1
+        },
+        "pedestrian": {
+          "total": 0,
+          "success": 0,
+          "fail": 0
+        }
+      }
+    }
+  ]
+}
